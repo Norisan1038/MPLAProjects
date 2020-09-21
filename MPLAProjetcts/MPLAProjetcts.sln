@@ -3,9 +3,40 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{A3B181F4-395C-4808-A2F3-DFF6F47C9576}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism WPF", "Prism WPF", "{5CBCAEDF-B02C-4AAE-9AF5-2A1FF022E11A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Livet WPF", "Livet WPF", "{5CB86723-22D4-4737-A4F9-D6A1117A5B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppMPLAwfr", "AppMPLAwfr\AppMPLAwfr.csproj", "{8A38B0CB-7EA0-4A47-A314-9B57CADED964}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{1E3AD3C2-CB98-4992-8717-F1193061795C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibFrmMainMPLA", "LibFrmMainMPLA\LibFrmMainMPLA.csproj", "{C24DC84C-D42C-4E2D-9C9F-141A45456A11}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A38B0CB-7EA0-4A47-A314-9B57CADED964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A38B0CB-7EA0-4A47-A314-9B57CADED964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A38B0CB-7EA0-4A47-A314-9B57CADED964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A38B0CB-7EA0-4A47-A314-9B57CADED964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C24DC84C-D42C-4E2D-9C9F-141A45456A11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C24DC84C-D42C-4E2D-9C9F-141A45456A11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C24DC84C-D42C-4E2D-9C9F-141A45456A11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C24DC84C-D42C-4E2D-9C9F-141A45456A11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8A38B0CB-7EA0-4A47-A314-9B57CADED964} = {A3B181F4-395C-4808-A2F3-DFF6F47C9576}
+		{1E3AD3C2-CB98-4992-8717-F1193061795C} = {A3B181F4-395C-4808-A2F3-DFF6F47C9576}
+		{C24DC84C-D42C-4E2D-9C9F-141A45456A11} = {1E3AD3C2-CB98-4992-8717-F1193061795C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {595D3639-87F8-477A-82B2-E4D4DD417A2D}
