@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30330.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms", "WinForms", "{A3B181F4-395C-4808-A2F3-DFF6F47C9576}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinForms_NetCore3.1", "WinForms_NetCore3.1", "{A3B181F4-395C-4808-A2F3-DFF6F47C9576}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prism WPF", "Prism WPF", "{5CBCAEDF-B02C-4AAE-9AF5-2A1FF022E11A}"
 EndProject
